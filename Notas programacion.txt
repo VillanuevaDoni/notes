@@ -1,0 +1,35 @@
+Notas de programcion:
+
+GET: Basicamente es adecuado para realizar operaciones de consulta o lectura
+POST: Es adecuado para operaciones que afecten a la base de datos o el manejo de informacion crucial,
+      pasa los datos a travez del protocolo HTTP en el body de la pagina.\
+PUT: Adecuado para actualizar datos
+
+
+--variables de entorno en node.js--
+
+/para crear una variable de entorno en node.js podemos hacerlo en la terminal con el comando -export- seguido del nombre
+de la variable de entorno
+
+
+--Aprender mas javascript
+--Aprender typescript
+--Aprender mas sobre promesas y como funcionan, uso adecuado
+
+
+paquetes nodejs
+npm install --save @types/node
+nodemon
+express
+mongoose
+bcrypt
+jwtoken
+express-validator
+morgan
+npm install -g http-server   
+npm install zod -E (validacion en runtime)
+
+Extensiones vscode
+--REST Client
+--Live Preview
+--Live Server

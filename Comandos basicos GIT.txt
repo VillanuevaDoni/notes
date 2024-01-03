@@ -1,0 +1,65 @@
+Git COMMANDS
+
+1)
+git init: Inicializa un nuevo repositorio de Git en el directorio actual. Crea una nueva carpeta oculta llamada .git que contiene toda la información del repositorio.
+
+2)
+git clone <URL>: Clona un repositorio existente desde una URL remota a tu máquina local. Crea una copia completa del repositorio en tu directorio actual.
+
+3)
+git add <archivo>: Agrega un archivo al área de preparación (staging area) para que esté listo para ser confirmado en el próximo commit.
+
+4)
+git commit -m "Mensaje del commit": Confirma los cambios en el área de preparación y crea un nuevo commit en la historia del repositorio con un mensaje descriptivo.
+*Despues presionar la letra "I" para insertar el mensaje del commit y luego ":wq"
+5)
+git status: Muestra el estado actual de tu directorio de trabajo y el área de preparación. Te informa sobre los archivos modificados, agregados o eliminados.
+
+6)
+git log: Muestra el historial de commits del repositorio, incluyendo información como el autor, la fecha y el mensaje de cada commit.
+
+7)
+git pull: Descarga los cambios más recientes desde un repositorio remoto y los fusiona con tu rama actual.
+
+8)
+git push: Envía los commits locales a un repositorio remoto. Esto actualiza el repositorio remoto con tus cambios locales.
+
+9)
+git branch: Muestra una lista de todas las ramas en el repositorio. La rama actual estará marcada con un asterisco (*).
+git branch (nombre de rama): puedo crear una version alternativa de mi repositorio
+10)
+git checkout <nombre-de-rama>: Cambia a una rama diferente en el repositorio. También se puede utilizar para crear y cambiar a una nueva rama.
+git checkout <nombre de archivo>: Restaura el archivo a la ultima version a la que se le hizo commit
+11)
+git merge <rama>: Fusiona una rama específica con la rama actual. Los cambios de la rama especificada se incorporarán a la rama actual.
+
+12)
+git remote -v: Muestra la lista de repositorios remotos vinculados a tu repositorio local, junto con sus URLs.
+
+13)
+git diff: Muestra las diferencias entre los archivos en tu directorio de trabajo y los cambios confirmados en el repositorio.
+
+14)
+git reset <archivo>: Retira un archivo del área de preparación, deshaciendo los cambios que estaban listos para ser confirmados.
+
+15)
+git rm <archivo>: Elimina un archivo del directorio de trabajo y marca el cambio para que sea confirmado en el próximo commit.
+
+
+
+…or create a new repository on the command line
+echo "# pruebaGitHub" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/VillanuevaDoni/pruebaGitHub.git
+git push -u origin main
+
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/VillanuevaDoni/pruebaGitHub.git
+git branch -M main
+git push -u origin main
+
+

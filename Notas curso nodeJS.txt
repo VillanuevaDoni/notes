@@ -1,0 +1,13 @@
+Notas Curso nodeJS Midudev:
+
+Call back: Funcion que se ejecuta cuando se completa una tarea asincrona o sincrona
+
+Sincrono:
+Ejecuta todo secuencial sin liberar recursos
+
+Asincronia:
+Tres tipos de asincronia:
+
+1.Asincrono callback -- =>{}
+2.Asincrono secuencial -- async-await
+3.Asincrono paralelo -- 

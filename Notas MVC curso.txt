@@ -1,0 +1,9 @@
+Telerik Fiddler Web Debugger *permite hacer request a una pagina web entre otras cosas
+
+-httpost para enviar datos, "post" podria decirse que es enviar datos en html
+-httget para recibir datos, 
+
+*viewbag, permite enviar mensajes, fechas, numeros, cualquier información hacia la vista
+*viewdata y viewbag (hacen lo mismo con diferente sintaxix), se usan para enviar información del action hacia la vista
+*partial view(vista parcial) es una vista independiente que puede ser reutilizada en otras vistas, permite reutilizar vistas (Html.Partial("Nombre de la vista")
+
